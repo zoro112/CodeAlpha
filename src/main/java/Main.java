@@ -32,7 +32,7 @@ public class Main {
     }
 
     // Calculate the average grade
-    int averageGrade = total / numStudents;
+    double  averageGrade =(double) total / numStudents;
 
     // Print the calculated average, maximum, and minimum grades
     System.out.println("Average grade: " + averageGrade);
